@@ -45,6 +45,9 @@ require_once( 'library/custom-post-type.php' ); // you can disable this if you l
 */
 // require_once( 'library/translation/translation.php' ); // this comes turned off by default
 
+// Inhouse debug functions
+require_once( 'library/ml-debug.php' ); // this comes turned off by default
+
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes

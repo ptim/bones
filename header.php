@@ -12,6 +12,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 		<title><?php wp_title(''); ?></title>
+		<?php do_action( 'ml_debug' ); ?>
 
 		<!-- mobile meta (hooray!) -->
 		<meta name="HandheldFriendly" content="True">
