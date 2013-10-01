@@ -55,7 +55,7 @@
 					<?php // bloginfo('description'); ?>
 
 
-					<nav role="navigation">
+					<nav class="navbar navbar-default" role="navigation">
 						<?php bones_main_nav(); ?>
 					</nav>
 
