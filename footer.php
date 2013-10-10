@@ -1,6 +1,10 @@
-			<footer class="footer" role="contentinfo">
+				</div><!-- container -->
+			<div id="push"></div><!-- sticky footer -->
+			</div><!-- end #wrap -->
 
-				<div id="inner-footer" class="wrap clearfix">
+			<footer id="footer" role="contentinfo">
+
+				<div id="inner-footer" class="container">
 
 					<nav role="navigation">
 							<?php bones_footer_links(); ?>
