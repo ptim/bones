@@ -1,26 +1,24 @@
-				</div><!-- container -->
-			<div id="push"></div><!-- sticky footer -->
-			</div><!-- end #wrap -->
+			</div><?php // container  ?>
+		<div id="push"></div><?php // sticky footer  ?>
+		</div><?php // end #wrap  ?>
 
-			<footer id="footer" role="contentinfo">
+		<footer id="footer" role="contentinfo">
 
-				<div id="inner-footer" class="container">
+			<div id="inner-footer" class="container">
 
-					<nav role="navigation">
-							<?php bones_footer_links(); ?>
-					</nav>
+				<nav role="navigation">
+						<?php bones_footer_links(); ?>
+				</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+				<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
-				</div> <!-- end #inner-footer -->
+			</div> <?php // end #inner-footer ?>
 
-			</footer> <!-- end footer -->
+		</footer> <?php // end footer ?>
 
-		</div> <!-- end #container -->
-
-		<!-- all js scripts are loaded in library/bones.php -->
+		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
 
 	</body>
 
-</html> <!-- end page. what a ride! -->
+</html> <?php // end page. what a ride! ?>
